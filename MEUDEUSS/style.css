@@ -1,0 +1,304 @@
+/* styles.css */
+
+/* Carousel styles */
+  /* Estilos adicionais */
+  .navbar {
+    background-color: #172218; /* Cor personalizada para a navbar */
+  }
+
+  .navbar .search-bar {
+    display: none; /* Escondida inicialmente */
+    width: 250px; /* Tamanho da barra de pesquisa ajustado */
+    margin-top: 10px; /* Espaçamento entre a navbar e a barra de pesquisa */
+  }
+
+  /* Estilo para garantir o alinhamento correto do nome da loja */
+  .navbar-brand {
+    color: aliceblue;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+  
+  }
+
+  /* Garantir que os ícones fiquem bem no canto direito */
+  .navbar-nav {
+    margin-left: auto;
+  }
+
+  /* Espaçamento entre os ícones */
+  .navbar-nav .icon-button {
+    margin-right: 15px; /* Espaço entre os ícones */
+  }
+
+  /* Estilo para o segundo navbar */
+  .navbar-second {
+    background-color: #172218; /* Mesma cor do primeiro navbar */
+    margin-top: 5px; /* Espaço entre as duas navbars */
+  }
+
+  .navbar-second .nav-link {
+    color: white;
+    font-weight: bold;
+   
+      }
+
+  .navbar-second .nav-link:hover {
+    color: #ddd; /* Cor do texto ao passar o mouse */
+    
+  }
+
+  /* Centralizar os links no segundo navbar */
+  .navbar-second .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza os itens */
+  }
+  .btn-custom-green {
+  background-color: #598C21;
+  color: #fff;
+  border: none;
+}
+.btn-custom-green:hover {
+  background-color: #4e7e1d;
+}
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #598C21;
+  }
+   .card {
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .btn-custom-ver-mais {
+  background-color: #598C21;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-custom-ver-mais:hover {
+  background-color: #4e7e1d;
+}
+.carousel-item img {
+  width: 500px; /* A largura das imagens */
+  margin: 0 auto; /* Centraliza as imagens */
+      }
+.carousel {
+  position: relative;
+  width: 200%;
+  max-width: 900px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+  width: 1000px;
+  flex-shrink: 0;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+.navbar .search-bar {
+  display: none; /* Escondida inicialmente */
+  width: 250px; /* Tamanho da barra de pesquisa ajustado */
+  margin-top: 10px; /* Espaçamento entre a navbar e a barra de pesquisa */
+}
+
+/* Estilo para garantir o alinhamento correto do nome da loja */
+.h3 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  margin-top: 5px;
+}
+
+/* Garantir que os ícones fiquem bem no canto direito */
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* Espaçamento entre os ícones */
+.navbar-nav .icon-button {
+  margin-right: 15px; /* Espaço entre os ícones */
+}
+
+/* Posiciona a barra de pesquisa abaixo da lupa */
+#search-bar-container {
+  position: absolute;
+  top: 60px;   /* Coloca a barra de pesquisa abaixo da navbar */
+  right: 70px; /* Posiciona a barra de pesquisa abaixo da lupa */
+  z-index: 10;
+  display: none; /* Inicialmente escondida */
+ 
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 0;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.footer-section {
+  margin-bottom: 20px;
+}
+.footer-item img {
+  width: 50px; /* Ajuste o tamanho das imagens */
+  margin-right: 10px;
+}
+.footer-item img:last-child {
+  margin-right: 0; /* Remove o espaçamento à direita da última imagem */
+}
+/* Alinhamento das imagens lado a lado */
+.payment-images, .social-images {
+  display: flex;
+  justify-content: start;
+}
+.btn-primary{
+  background-color: #598C21;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  
+}
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer img {
+  border-radius: 10px;
+}
+.card {
+  margin-bottom: 30px; /* Aumenta o espaçamento entre as linhas */
+}
+.row {
+  row-gap: 50px; /* Espaçamento adicional entre as linhas */
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info-footer{
+    display: flex;
+}
+
+footer{
+    background-color: #000000;
+    padding-inline: 100px;
+}
+
+.categorias>h1, .time>h1, .pagamento>h1, .sociais>h1{
+    color: #ffffff;
+}
+
+.categorias, .time, .pagamento, .sociais{
+    padding-top: 50px;
+    padding-inline: 100px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #d1d1d1;
+}
+
+.categorias>ul, .time>ul, .pagamento>ul, .sociais>ul{
+    list-style-type: none;
+}
+
+.pagamento>ul{
+    text-align: center;
+}
+
+.sociais>ul{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.politica, .termo, .trocas, .pedido, .fale, .sobre, .doacoes, .parceiros{
+    text-decoration: none;
+    color: #d1d1d1;
+    font-size: 15px;
+}
+
+.divisao{
+    margin-top: 10px;
+}
+
+.logotipo{
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.copyright{
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 9px;
+    padding-bottom: 30px;
+    position: relative;
+    left: 6px;
+}
+
+.contato{
+    position: absolute;
+    color: #d1d1d1;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    right: 90px;
+    top: 265px;
+}
+
+.contatos{
+    list-style-type: none;
+}
+
